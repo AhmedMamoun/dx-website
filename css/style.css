@@ -1,0 +1,668 @@
+@font-face {
+    font-family: "gotham";
+    src: url(../fonts/Gotham-Thin.otf);
+}
+@font-face {
+    font-family: "Tungsten";
+    src: url(../fonts/Tungsten-Bold.ttf);
+}
+@font-face {
+    font-family: "Tungstenbolder";
+    src: url(../fonts/Tungsten-Bolder.otf);
+}
+
+body {
+    font-family:raleway;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+    background:#1d1d1d;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background:#f7186a;
+        border-radius: 10px;
+  }
+.navbar {
+    background-color: #1D1D1D;
+    padding:13px;
+    box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.75);
+
+}
+.navbar .nav-item :hover {
+    color:#FBB03B !important;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color:#FBB03B !important;
+}
+.navbar .navbar-brand img {
+    width:50px;
+    height:50px;
+    margin-right:5px;
+    position: relative;
+}
+.navbar span {
+    letter-spacing:3;
+    font-weight: 900;
+}
+.navbar a {
+    color:white !important;
+}
+.navbar .nav-item {
+    font-size:16px;
+    font-family: gotham;
+    margin-right:20px;
+}
+.navbar #login {
+    color:#f7186a !important;
+    font-family: raleway;
+    font-weight: 900;
+}
+.navbar #login:hover {
+    color:#f7186a !important;
+}
+.navbar .nav-link{
+    float:right;
+}
+
+
+.navbar .buttons {
+    text-align: center;
+}
+
+.navbar .btn-hover {
+    width: 170px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    padding:10px 15px;
+    text-align:center;
+    border: none;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.navbar .btn-hover:focus {
+    outline: none;
+}
+.navbar .btn-hover.color-10 {
+    background-image: linear-gradient(to right, #f7186a , #FBB03B); 
+}
+.navbar .little {
+    position: absolute;
+    font-size:12px;
+    left:110px;
+    top:53px;
+    margin:0;
+    padding:0;
+    display: block;
+}
+/**************************Start slider***********************************/
+
+.slider {
+    color:white;
+    background-image: linear-gradient(to left, #0096AD , #346E93); 
+    overflow: hidden;
+    max-height:650px;
+    height:100vh;
+}
+.slider .welcome-intro {
+    font-size:130px;
+    line-height: 0.9;
+    letter-spacing: 5px;
+    margin-top:100px;
+    text-transform: uppercase;
+    font-family: Tungsten;
+    position: absolute;
+}
+.slider span {
+    display: block;
+    text-transform: uppercase;
+    font-family: Tungsten;
+}
+.slider .intro {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    position: relative;
+    top:350px;
+    line-height: 34px;
+}
+
+.slider .buttons {
+    text-align: left;
+    position: relative;
+    top:380px;
+}
+
+.slider .btn-hover {
+    width: 350px;
+    height:60px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    padding:10px 15px;
+    text-align:center;
+    border: none;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.slider .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.slider .btn-hover:focus {
+    outline: none;
+}
+.slider .btn-hover.color-10 {
+    background-image: linear-gradient(to right, #29323c, #485563, grey, #29323c);
+}
+/**************************End slider***********************************/
+/**************************Start skills***********************************/
+.skills {
+    background: #181818;
+    color:White;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    text-align: left;
+    padding:60px 0 20px 0;
+    position: relative;
+}
+.Skills a {
+    color:#f7186a;
+}
+.skills .col-12 {
+    margin-top:20px;
+    padding:0;
+}
+.skills .col-12 .wrap {
+    margin:0;
+}
+.skills .col-lg-3 {
+    border:1px solid #8e8e8e;
+    box-shadow: 0px 10px 30px 14px rgba(0,0,0,0.3);
+
+}
+.skills #own p {
+    width:350px;
+    font-size: 21px;
+    line-height:30px;
+}
+.skills .wrap {
+    background:#222222;
+    padding:5px;
+    box-shadow: 0px 10px 30px -14px rgba(0,0,0,0.3);
+    max-height:220px;
+    margin-right:20px;
+    height:220px;
+}
+.skills .lorem {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+    color:#e0e0e0
+}
+
+.skills .icon i {
+    font-size:20px;
+    background-image: linear-gradient(to right, #f7186a , #f7186a); 
+    line-height: 40px;
+    height:40px;
+    width:40px;
+    position: relative;
+    top:-15px;
+    left:10px;
+    border-radius: 50%;
+    text-align: center;
+}
+.Skills .icon-1 {
+    display: inline;
+}
+.Skills h3 {
+    text-transform: uppercase;
+
+}
+.skills .iq {
+    background:#f7186a;
+    padding:0 5px;
+    border-radius: 2px;
+}
+.Skills .icon-1 i {
+background-image: linear-gradient(to right, #f7186a , #f7186a); 
+width:30px;
+height:30px;
+margin-right:5px;
+border-radius: 50%;
+text-align: center;
+line-height: 30px;
+}
+.skills .title h3 {
+    font-size: 21px;
+    line-height: 1.2;
+    color: white;
+    font-weight:900;
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+.skills .text-wrap {
+    margin-left:10px;
+
+}
+/**************************End skills***********************************/
+/**************************Start slides***********************************/
+.slides {
+    overflow: hidden;
+    position: relative;
+}
+.slides .container-fluid {
+    margin:0;
+    padding:0;
+}
+.slides .col-6 {
+    margin:0;
+    padding:0;
+}
+.slides img {
+    width:100%;
+}
+.slides .text-wrapper {
+    position: absolute;
+    color:white;
+}
+.slides .text-wrapper h2 {
+    font-family:Tungstenbolder;
+    left:80px;
+    position: relative;
+    margin-top:190px;
+    font-size:62px;
+    letter-spacing: 2.5;
+}
+.slides .text-wrapper p {
+    left:80px;
+    position: relative;
+    font-size:22px;
+}
+.slides span {
+    background-image: linear-gradient(to left, #f7186a , #346E93); 
+    padding:0 10px;
+    border-radius:5px;
+}
+/**************************End slides***********************************/
+
+
+/**************************Start overview***********************************/
+    .overview{
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background:#232222;
+        color:#b7b7b7;
+    }
+    .overview .col-6 {
+        margin:0;
+        padding:0;
+    }
+    .overview .container-fluid {
+        margin:0;
+        padding:0;
+    }
+    .overview img {
+        margin-top:40px;
+        width:50%;
+        height:300px;
+    }
+    .overview .text-wrapper {
+        position: relative;
+        right:100px;
+        top:-50px;
+    }
+    .overview h2 {
+        margin-top:150px;
+        background:#F7186A;
+        color:white;
+        border-radius: 5px;
+        width:100%;
+        margin-bottom: 20px;
+    }
+/**************************End overview***********************************/
+/**************************Start Org***********************************/
+.org {
+    background:#000000;
+    padding:40px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.org .left {
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top:40px;
+    font-size:22px;
+    position: relative;
+}
+.org span {
+    margin:0;
+    padding:0;
+}
+
+.org .right {
+
+    margin-top:10px;
+    font-size:16px;
+   
+}
+.org h2 {
+    font-size:22px;
+    background:#1D1D1D;
+    padding:10px;
+    border-radius: 5px;
+}
+.org .icon-1 {
+    display: inline-block;
+    margin:40px;
+}
+.org .icon-1 i {
+    font-size:42px;
+    margin-right:10px;
+    background-image: linear-gradient(to right, #f7186a , #f7186a); 
+    padding:15px;
+    border-radius:10px;
+}
+.org .icon-1 span {
+    font-size:16px;
+    margin-right:10px;
+    display: block;
+    margin-top:20px;
+}
+/**************************End Org***********************************/
+
+/**************************Start start***********************************/
+.start {
+    background-image: linear-gradient(to right, #1189A5 , #FED301);
+    padding:60px;
+    color:White;
+    overflow: hidden;
+}
+.start h3 {
+    font-size:62px;
+    letter-spacing: 1.5;
+    font-family:TungstenBolder;
+    position: relative;
+    right:40px;
+    margin-top:80px;
+}
+
+.start .buttons {
+    text-align: left;
+    position: relative;
+    right:40px;
+
+}
+
+.start .btn-hover {
+    width: 350px;
+    height:60px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    padding:10px 15px;
+    text-align:center;
+    border: none;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.start .btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.start .btn-hover:focus {
+    outline: none;
+}
+.start .btn-hover.color-10 {
+    background-image: linear-gradient(to right, #181818, #181818, #1D1D1D, #29323c);
+}
+.start img {
+    width:100%;
+    height:400px;
+    position: relative;
+    right:20px;
+}
+/**************************End start***********************************/
+/**************************Start footer***********************************/
+
+.footer {
+    padding:80px 0;
+    text-align: left !important;
+    background-color:#222222;
+    color:white;
+}
+
+.footer .info >span {
+    font-size: 40px;
+    margin-bottom:20px;
+
+}
+.footer .info span:first-of-type {
+    color:#F7186A;
+    float:left;
+    font-weight: bold;
+}
+.footer .info span:last-of-type {
+    color:white;
+    float:left;
+    font-weight: bold;
+
+}
+.footer .comm {
+top:-15px;
+}
+.footer .info p {
+    float:left;
+}
+.footer .info a {
+    float:left;
+    font-size:15px;
+    font-weight: bold;
+
+}
+.footer .info a:before {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f138';
+    display: inline-block;
+    font-weight: 900;
+    margin-right:5px;
+
+
+}
+.footer .links h4 {
+font-size:22px;
+color:#0E8CA6;
+margin-bottom:38px;
+}
+.footer .links ul li:before {
+    
+    font-family: 'Font Awesome 5 Free';
+    content: '\f054';
+    display: inline-block;
+    font-weight: 900;
+    margin-right:5px;
+    font-size:12px;
+    position:relative;
+    top:-1px;
+    color:#0E8CA6;
+}
+.footer .contact {
+    color:white;
+}
+.footer .contact a {
+    color:#F7186A;
+}
+/*الوان اللوجو*/
+.footer .contact li {
+padding-top:20px;
+}
+.copyright {
+    font-size:14px;
+    background:#222222;
+    border-top: 1px solid #363636;
+}
+.copyright img {
+    width:35px;
+    height:35px;
+}
+.copyright ul {
+    margin:0;
+}
+.copyright ul li {
+    display: inline-block;
+}
+.pricing-table {
+    padding-bottom: 0;
+}
+.copyright .col {
+    color:White;
+    padding:20px;
+}
+.copyright i {
+    background:#1289A4;
+    padding:15px;
+}
+.copyright i:hover {
+    color:black;
+    transition: all 0.5s ease-in-out
+}
+.copyright ul li a {
+    color:#fff;
+    font-size:18px;
+    margin-left:20px;
+    display: inline-block;
+
+
+}
+/**************************End footer***********************************/
+
+
+@media (max-width: 767px) {
+    .slider {
+        max-height:500px;
+    }
+    .slider .welcome-intro {
+       font-size: 52px;
+       top:40px;
+    }
+    .slider .intro {
+        top:110px;
+        line-height:30px;
+        font-size:16px;
+        margin-top:50px;
+        font-weight: 400;
+        letter-spacing: .5;
+        width:280px;
+    }
+    .slider .buttons {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        padding:0;
+        top:140px;
+    }
+    
+    
+    .skills .icon i {
+        font-size:16px;
+        width:35px;
+        height:35px;
+        position: relative;
+        top:-15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .slides h2 {
+        font-size:25px !important;
+        position: relative;
+        top:-130px !important;
+        left: 30px !important;
+    }
+    .overview img {
+        width:100%;
+        height:130px;
+    }
+    .overview h2 {
+        font-size:15px;
+        position: absolute;
+        top:-80px;
+        left:95px;
+        width:160px;
+    }
+    .overview p {
+        font-size:7px;
+        width:200px;
+        position: relative;
+        top:100px;
+        left:75px;
+    }
+    .start h3 {
+        font-size:32px;
+    }
+    .start img {
+        width:200px;
+        height:190px;
+        position: relative;
+        top:40px;
+        right:60px;
+        }
+}
