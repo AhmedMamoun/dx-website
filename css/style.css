@@ -593,6 +593,7 @@ padding-top:20px;
 /**************************End footer***********************************/
 
 
+
 @media (max-width: 767px) {
     .slider {
         max-height:500px;
@@ -610,7 +611,6 @@ padding-top:20px;
         letter-spacing: .5;
         width:280px;
     }
-    
     .slider .buttons {
         text-align: center;
         display: flex;
@@ -667,4 +667,32 @@ padding-top:20px;
         top:40px;
         right:60px;
         }
+        .copyright .text-right {
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            text-align: center;
+        }
+        
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .copyright .text-right {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+    }
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.copyright .text-left {
+    position: relative;
+    top:35px;
+}
+}
+@media (min-width: 1200px){
+    .copyright .text-left {
+        position: relative;
+        top:35px;
+    }
+    }
